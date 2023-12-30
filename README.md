@@ -5,7 +5,7 @@ A python script for creating the parameters required for a unique genesis block.
 ```
 export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/openssl@3/include"
-pip install scrypt
+pip install scrypt construct
 ``` 
 
 To create geneses based on X11 algorithm you will also need to install the [xcoin-hash](https://github.com/lhartikk/xcoin-hash) module. 
